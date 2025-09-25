@@ -5,6 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/workbook1d/BasicCalculator/pom.xml" />
+        <option value="$PROJECT_DIR$/class-demos/cat-ex/pom.xml" />
+        <option value="$PROJECT_DIR$/class-demos/demo-cats/pom.xml" />
+        <option value="$PROJECT_DIR$/RecapFunDay4/pom.xml" />
+        <option value="$PROJECT_DIR$/workbook1d/PayRollCalculator/pom.xml" />
+        <option value="$PROJECT_DIR$/workbook1d/MathApp/pom.xml" />
+        <option value="$PROJECT_DIR$/workbook1c/ShoppingList/pom.xml" />
+        <option value="$PROJECT_DIR$/class-demos/MovieNight/pom.xml" />
+        <option value="$PROJECT_DIR$/class-demos/Variable/pom.xml" />
       </list>
     </option>
   </component>

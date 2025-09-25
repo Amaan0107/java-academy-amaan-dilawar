@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/class-demos/MovieNight/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-demos/MovieNight/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-demos/RecapFunDay4/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-demos/RecapFunDay4/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-demos/Variable/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-demos/Variable/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-demos/cat-ex/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-demos/cat-ex/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-demos/demo-cats/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-demos/demo-cats/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/workbook1c/ShoppingList/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/workbook1c/ShoppingList/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/workbook1d/BasicCalculator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/workbook1d/BasicCalculator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/workbook1d/MathApp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/workbook1d/MathApp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/workbook1d/PayRollCalculator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/workbook1d/PayRollCalculator/src/main/resources" charset="UTF-8" />
   </component>
 </project>
