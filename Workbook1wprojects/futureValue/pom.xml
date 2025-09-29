@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example</groupId>
-        <artifactId>calculatorProjects</artifactId>
+        <artifactId>Workbook1wprojects</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>valueCalc</artifactId>
+    <artifactId>futureValue</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
