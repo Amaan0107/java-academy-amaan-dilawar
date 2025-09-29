@@ -9,7 +9,7 @@ public class valueCalc {
         System.out.printf("Enter deposit amount: ");
         double depositAmount = scanner.nextDouble();
 
-        System.out.printf("Enter interest rate (1.90): ");
+        System.out.printf("Enter interest rate (1.80): ");
         double interestRate = scanner.nextDouble();
 
         System.out.printf("Total years for CD to mature: ");
