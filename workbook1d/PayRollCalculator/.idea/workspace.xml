@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b93893c6-425a-4638-91fe-be7f2fa1d7f2" name="Changes" comment="" />
+    <list default="true" id="b93893c6-425a-4638-91fe-be7f2fa1d7f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../calculatorProjects/mortgageCalc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculatorProjects/valueCalc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../financial calculator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../financial calculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../financial calculator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../financial calculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../financial calculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../financial calculator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../financial calculator/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../financial calculator/src/mortgageCalculator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../financial calculator/src/mortgageCalculator/src/main/java/org/example/mortgage.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
