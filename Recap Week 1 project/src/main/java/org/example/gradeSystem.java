@@ -7,24 +7,23 @@ public class gradeSystem {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter exam score (0-100) :");
         int score = scanner.nextInt();
-    String grade;
-
+    char grade;
+    scanner.close();
     if (score >= 90) {
-        grade = "A";
+        grade = 'A';
         System.out.print("Your grade is : " + grade);
     }else if (score >=80 && score <= 89) {
-        grade = "B";
+        grade = 'B';
         System.out.print("Your grade is : " + grade);
     } else if (score >= 70 && score <= 79) {
-        grade = "C";
+        grade = 'C';
         System.out.print("Your grade is : " + grade);
     } else if (score >= 60 && score <= 69) {
-        grade = "D";
+        grade = 'D';
         System.out.print("Your grade is : " + grade);
     }else {
-        grade = "F";
+        grade = 'F';
         System.out.print("Your grade is : " + grade);
     }
-    scanner.close();
     }
 }
