@@ -50,5 +50,6 @@ public class Main {
         } while (!input.equalsIgnoreCase("exit"));
         System.out.println("Program Ended !");
         scanner.close();
+
     }
 }
