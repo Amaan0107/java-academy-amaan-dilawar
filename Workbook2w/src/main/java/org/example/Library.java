@@ -2,12 +2,12 @@ package org.example;
 
 public class Library {
     private int id;
-    private int isbn;
+    private String isbn;
     private String title;
     private boolean isCheckedOut;
     private String checkedOutTo;
 
-    public Library(int id, int isbn, String title){
+    public Library(int id, String isbn, String title){
         this.id = id;
         this.isbn = isbn;
         this.title = title;
@@ -19,7 +19,7 @@ public class Library {
         return id;
     }
 
-    public int getIsbn() {
+    public String getIsbn() {
         return isbn;
     }
 
@@ -60,11 +60,4 @@ public class Library {
             return id + " | " + isbn + " | " + title +  "(Available)";
         } }
 
-    public void checkIn() {
-        if (!isCheckedOut) {
-            System.out.println(title + " is not currently checked out.");
-        } else { isCheckedOut = false; checkedOutTo = "";
-            System.out.println(title + " has been checked in."); } }
-    }
-
-
+}
