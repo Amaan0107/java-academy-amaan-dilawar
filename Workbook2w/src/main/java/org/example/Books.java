@@ -85,11 +85,11 @@ public class Books {
             System.out.println("No books available right now");
             return;
         }
-        int id = readInt(scanner, "\nEnter book ID to check out (or 0 to return): ");
+        int id = readInt(scanner, "\nEnter book Id to check out (or 0 to return): ");
                 if (id == 0) return;
         int idx = findBookIndexById(id);
         if (idx == -1){
-            System.out.println("No book found with the ID " + id);
+            System.out.println("No book found with the Id " + id);
             return;
         }
         if (book_count[idx].isCheckedOut()){
