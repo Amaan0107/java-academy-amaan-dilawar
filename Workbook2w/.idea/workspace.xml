@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="254a185b-d49e-46f9-8705-ad856107eaab" name="Changes" comment="Project 2w done" />
+    <list default="true" id="254a185b-d49e-46f9-8705-ad856107eaab" name="Changes" comment="Project 2w done">
+      <change beforePath="$PROJECT_DIR$/../NeighborhoodLibrary/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeighborhoodLibrary/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeighborhoodLibrary/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeighborhoodLibrary/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeighborhoodLibrary/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wkbook2w library/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wkbook2w library/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wkbook2w library/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wkbook2w library/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wkbook2w library/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wkbook2w library/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
