@@ -1,0 +1,5 @@
+2025-10-07 14:36:10 Launch
+2025-10-07 14:36:14 search : Hi
+2025-10-07 14:36:18 search : I'm Amaan
+2025-10-07 14:36:30 search : Poop, poopy, Poopyhead
+2025-10-07 14:36:32 exit
