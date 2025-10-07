@@ -1,0 +1,7 @@
+Pay roll Report: 
+ ID    Name                 Hours      Rate       Gross Pay
+----------------------------------------------------------
+10    Dana Wyatt           52.50      12.50      656.25
+20    Ezra Aiden           17.00      16.75      284.75
+30    Brittany Thibbs      40.00      16.50      660.00
+40    Zephaniah Hughes     2.00       10.00      20.00
