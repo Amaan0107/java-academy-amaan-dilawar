@@ -1,0 +1,5 @@
+Electronics,Laptop,599.99
+Liquor,Jack Daniel's,24.99
+Frozen Food,Frozen Pizza,12.99
+Beverage,Cola,2.99
+Baby/Toddler,Baby Food,5.99
