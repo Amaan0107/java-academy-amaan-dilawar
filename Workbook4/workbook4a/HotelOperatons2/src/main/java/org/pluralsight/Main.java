@@ -7,11 +7,11 @@ public class Main {
         Room room1 = new Room(2, 150.00, false, false);
         System.out.println("Room available? " + room1.isAvailable());
 
-        // 📅 Test Reservation
+
         Reservation reservation1 = new Reservation("king", 3, true);
         System.out.println("Reservation total: $" + reservation1.getTotalPrice());
 
-        // 👩‍💼 Test Employee
+
         Employee emp1 = new Employee(8973, "Kim", "Front Desk", 20.00, 45);
         System.out.println("Employee: " + emp1.getName());
         System.out.println("Regular Hours: " + emp1.getRegularHours());
