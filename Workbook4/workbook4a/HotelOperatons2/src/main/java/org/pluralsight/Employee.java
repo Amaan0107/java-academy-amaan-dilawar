@@ -1,5 +1,6 @@
 package org.pluralsight;
 
+
 public class Employee {
   private int employeeId;
   private String name;
@@ -64,13 +65,24 @@ public class Employee {
 
       double hoursWorkedThisShift = time - startTime;
       hoursWorked += hoursWorkedThisShift;
-      System.out.println(name + " punched out at " + time + " (worked " + hoursWorkedThisShift + " hrs)");
+      System.out.printf("%s punched out at %.2f (worked %.2f hrs)%n", name, time, hoursWorkedThisShift);
 
       startTime = 0;
   }
     public void punchIn() {
-        startTime = java.time.LocalTime.now().getHour();
-        System.out.println(name + "has been automatically punched in at " + startTime);
+        java.time.LocalTime now = java.time.LocalTime.now();
+        startTime = now.getHour() + (now.getMinute() / 60.0);
+        System.out.printf("%s has been automatically punched in at %.2f%n", name, startTime);
+    }
+    public void punchOut() {
+      if (startTime == 0) {
+          System.out.println("Error: " + name + " has not punched in yet!");
+          return;
+      }
+      java.time.LocalTime now = java.time.LocalTime.now();
+      double currentTime = now.getHour() + (now.getMinute() / 60.0);
+      punchOut(currentTime);
+
     }
 
 
