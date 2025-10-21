@@ -7,6 +7,9 @@ public class Main {
         Room room1 = new Room(2, 150.00, false, false);
         System.out.println("Room available? " + room1.isAvailable());
 
+        Room room2 = new Room(1, 126.00, false, true);
+        System.out.println("Room available? " + room2.isAvailable());
+
 
         Reservation reservation1 = new Reservation("king", 3, true);
         System.out.println("Reservation total: $" + reservation1.getTotalPrice());
