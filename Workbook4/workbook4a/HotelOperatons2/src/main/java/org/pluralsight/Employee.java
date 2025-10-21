@@ -6,6 +6,7 @@ public class Employee {
   private String department;
   private double payRate;
   private double hoursWorked;
+  private double startTime;
 
   public Employee(int employeeId, String name, String department, double payRate, double hoursWorked) {
       this.employeeId = employeeId;
@@ -48,6 +49,24 @@ public class Employee {
       double regularPay = getRegularHours() * payRate;
       double overTimePay = getOverTimeHours() * payRate * 1.5;
       return regularPay + overTimePay;
+  }
+
+  public void punchIn(double time) {
+        startTime = time;
+        System.out.println(name + " punched in at " + time);
+  }
+
+  public void punchOut(double time) {
+      if (startTime == 0) {
+          System.out.println("Error: " + name + " has not punched in yet!");
+          return;
+      }
+
+      double hoursWorkedThisShift = time - startTime;
+      hoursWorked += hoursWorkedThisShift;
+      System.out.println(name + " punched out at " + time + " (worked " + hoursWorkedThisShift + " hrs)");
+
+      startTime = 0;
   }
 
 

@@ -12,11 +12,16 @@ public class Main {
         System.out.println("Reservation total: $" + reservation1.getTotalPrice());
 
 
-        Employee emp1 = new Employee(8973, "Kim", "Front Desk", 20.00, 45);
-        System.out.println("Employee: " + emp1.getName());
-        System.out.println("Regular Hours: " + emp1.getRegularHours());
-        System.out.println("Overtime Hours: " + emp1.getOverTimeHours());
-        System.out.println("Total Pay: $" + emp1.getTotalPay());
+        Employee emp1 = new Employee(1, "Kim", "Front Desk", 20.0, 0);
+
+        emp1.punchIn(10.0);
+        emp1.punchOut(12.5);
+
+        emp1.punchIn(14.0);
+        emp1.punchOut(18.0);
+
+        System.out.println("Total hours worked: " + emp1.getHoursWorked());
+        System.out.println("Total pay: $" + emp1.getTotalPay());
     }
 }
 
