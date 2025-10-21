@@ -68,6 +68,10 @@ public class Employee {
 
       startTime = 0;
   }
+    public void punchIn() {
+        startTime = java.time.LocalTime.now().getHour();
+        System.out.println(name + "has been automatically punched in at " + startTime);
+    }
 
 
 }
