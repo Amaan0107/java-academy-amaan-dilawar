@@ -17,6 +17,13 @@ public class Employee {
       this.hoursWorked = hoursWorked;
 
   }
+    public Employee() {
+        this.employeeId = employeeId;
+        this.name = name;
+        this.department = department;
+        this.payRate = payRate;
+        this.hoursWorked = hoursWorked;
+        }
 
   public int getEmployeeId() {
     return employeeId;
@@ -57,10 +64,10 @@ public class Employee {
         System.out.println(name + " punched in at " + time);
   }
 
-  public void punchOut(double time) {
+  public double punchOut(double time) {
       if (startTime == 0) {
           System.out.println("Error: " + name + " has not punched in yet!");
-          return;
+          return 0;
       }
 
       double hoursWorkedThisShift = time - startTime;
@@ -68,20 +75,23 @@ public class Employee {
       System.out.printf("%s punched out at %.2f (worked %.2f hrs)%n", name, time, hoursWorkedThisShift);
 
       startTime = 0;
+      return hoursWorkedThisShift;
   }
     public void punchIn() {
         java.time.LocalTime now = java.time.LocalTime.now();
         startTime = now.getHour() + (now.getMinute() / 60.0);
         System.out.printf("%s has been automatically punched in at %.2f%n", name, startTime);
     }
-    public void punchOut() {
+    public double punchOut() {
       if (startTime == 0) {
           System.out.println("Error: " + name + " has not punched in yet!");
-          return;
+          return 0;
       }
       java.time.LocalTime now = java.time.LocalTime.now();
       double currentTime = now.getHour() + (now.getMinute() / 60.0);
       punchOut(currentTime);
+
+      return currentTime;
 
     }
 

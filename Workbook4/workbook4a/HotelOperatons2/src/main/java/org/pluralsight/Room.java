@@ -12,6 +12,12 @@ public class Room {
         this.occupied = occupied;
         this.dirty = dirty;
     }
+    public Room() {
+        this.numOfBeds = 1;
+        this.price = 100.00;
+        this.occupied = false;
+        this.dirty = false;
+    }
     public int getNumOfBeds() {return numOfBeds;}
 
     public double getPrice() {return price;}
