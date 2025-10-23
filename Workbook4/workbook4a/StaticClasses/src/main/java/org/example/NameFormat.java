@@ -42,9 +42,9 @@ public class NameFormat {
 
         String[] nameParts = trimmedName.split(" ");
         String prefix = null;
-        String firstName = null;
+        String firstName;
         String middleName = null;
-        String lastName = null;
+        String lastName;
 
         if (nameParts.length == 2) {
             firstName = nameParts[0];
