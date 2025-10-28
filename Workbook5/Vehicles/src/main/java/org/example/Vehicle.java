@@ -6,6 +6,8 @@ public class Vehicle {
     private int cargoCapacity;
     private int fuelCapacity;
 
+
+
     public String getColor() {
         return color;
     }
