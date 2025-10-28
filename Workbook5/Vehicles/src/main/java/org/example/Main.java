@@ -7,9 +7,10 @@ public class Main {
     Moped slowRide = new Moped();
 
     slowRide.setFuelCapacity(5);
-
     slowRide.setColor("Red");
 
+        System.out.println("Slow Ride Fuel Capacity: " + slowRide.getFuelCapacity());
+        System.out.println("Slow Ride Color: " + slowRide.getColor());
 
     }
 }
