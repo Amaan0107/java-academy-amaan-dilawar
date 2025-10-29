@@ -19,6 +19,7 @@ public class Main {
         assets.add(new Vehicle("My Sedan", "2015-09-02", 30000,
                 "Ford Fusion", 2015, 120000));
 
+        assets.add(new Cash("Emergency Fund", "2024-01-01", 2000));
 
         for (Asset asset : assets) {
             System.out.printf("\nDescription: %s%n", asset.getDescription());
@@ -32,7 +33,8 @@ public class Main {
             } else if (asset instanceof Vehicle) {
                 Vehicle vehicle = (Vehicle) asset;
                 System.out.println("Year/Make-Model: " + vehicle.getYear() + " " + vehicle.getMake());
-            }
+            }else if (asset instanceof Cash)
+                System.out.println("Type: Cash");
         }
     }
 }
