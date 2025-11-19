@@ -1,3 +1,4 @@
-SELECT SupplierID, count(*) as items_supplied
+SELECT SupplierID, count(*) items_supplied
 FROM northwind.products
-Group by SupplierID;
+Group by SupplierID
+having count(*) >= 5;
