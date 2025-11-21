@@ -1,0 +1,2 @@
+SELECT * 
+FROM cardealership.dealership;
