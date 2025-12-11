@@ -26,10 +26,13 @@ public class ProductController {
     public List<Product> getProducts() {
         return products;
     }
-    @GetMapping("{/id}")
+    @GetMapping("/{id}")
     public Product getProductById(@PathVariable int id) {
         for (Product p : products) {
-            return p;
+            if (p.getProductID() == id) {
+                return p;
+            }
+
         }
         return null;
     }

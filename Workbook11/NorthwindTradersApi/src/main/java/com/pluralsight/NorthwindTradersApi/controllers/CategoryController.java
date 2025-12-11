@@ -23,10 +23,12 @@ public class CategoryController{
     public List<Category> getCategoryList(){
         return categoryList;
     }
-    @GetMapping("{/id}")
+    @GetMapping("/{id}")
     public Category getCategory(@PathVariable int id){
-        for(Category c : categoryList){
-            return c;
+        for(Category c : categoryList) {
+            if (c.getCategoryId() == id) {
+                return c;
+            }
         }
         return null;
     }
