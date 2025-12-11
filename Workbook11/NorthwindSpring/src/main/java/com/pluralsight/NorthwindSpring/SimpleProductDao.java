@@ -9,6 +9,7 @@ public class SimpleProductDao implements ProductDao {
 
     private  List<Product> products = new ArrayList<>();
     public SimpleProductDao() {
+        products = new ArrayList<>();
         products.add(new Product(1,"Laptop", "Electronics",550.00));
         products.add(new Product(2,"Chairs", "Furniture",80.00));
         products.add(new Product(3,"Headphones", "Electronics",50.00));

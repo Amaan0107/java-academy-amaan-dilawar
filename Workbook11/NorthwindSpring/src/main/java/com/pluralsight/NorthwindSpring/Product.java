@@ -10,6 +10,7 @@ public class Product {
         this.productId = productId;
         this.name = name;
         this.category = category;
+        this.price = price;
     }
     public int getProductId() {
         return productId;
@@ -22,5 +23,9 @@ public class Product {
     }
     public double getPrice() {
         return price;
+    }
+    @Override
+    public String toString() {
+        return productId + " | " + name + " | " + category + " | $" + price;
     }
 }
